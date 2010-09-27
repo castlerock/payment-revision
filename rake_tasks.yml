@@ -1,16 +1,34 @@
 --- 
 production: 
-beta: 
-qa: 
-nightly: 
-testing: 
+  completed_tasks:
+  yet_to_run:
+beta:
+  completed_tasks:
+  yet_to_run:
+qa:
+  completed_tasks:
+  yet_to_run:
+nightly:
+  completed_tasks:
+  yet_to_run:
+testing:
   completed_tasks: 
   - rake invalid --trace
   - rake db:migrate --trace
   - rake db:version --trace
   yet_to_run: 
 development: 
-preview: 
+  completed_tasks:
+  yet_to_run:
+preview:
+  completed_tasks:
+  yet_to_run:
 cucumber: 
-test: 
-staging: 
+  completed_tasks:
+  yet_to_run:
+test:
+  completed_tasks:
+  yet_to_run:
+staging:
+  completed_tasks:
+  yet_to_run:
