@@ -32,3 +32,9 @@ test:
 staging:
   completed_tasks:
   yet_to_run:
+app:
+  completed_tasks:
+  yet_to_run:
+qa2:
+  completed_tasks:
+  yet_to_run:

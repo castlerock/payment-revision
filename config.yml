@@ -19,3 +19,7 @@ test:
   app_revision: 1.1.0_D_0
 staging: 
   app_revision: 2.0.0_S_9
+app: 
+  app_revision: 2.0.0_B_25
+qa2:
+  app_revision: 2.0.0_B_25
