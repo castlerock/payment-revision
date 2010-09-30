@@ -1,12 +1,12 @@
 --- 
 app: 
-  app_revision: 2.0.0_RC_30
+  app_revision: 2.0.0_RC_28
 qa2: 
-  app_revision: 2.0.0_B_30
+  app_revision: 2.0.0_B_28
 qa: 
-  app_revision: 2.0.0_B_30
+  app_revision: 2.0.0_B_28
 beta: 
-  app_revision: 2.0.0_RC_30
+  app_revision: 2.0.0_RC_28
 production: 
   app_revision: 1.1.0_RC_0
 development: 
@@ -20,6 +20,6 @@ cucumber:
 preview: 
   app_revision: 1.1.2-production
 staging: 
-  app_revision: 2.0.0_S_30
+  app_revision: 2.0.0_S_28
 test: 
   app_revision: 1.1.0_D_0
