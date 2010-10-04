@@ -1,59 +1,59 @@
 --- 
+app: 
+  completed_tasks: 
+  yet_to_run: 
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
+qa2: 
+  completed_tasks: 
+  yet_to_run: 
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
+qa: 
+  completed_tasks: 
+  yet_to_run: 
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
+beta: 
+  completed_tasks: 
+  yet_to_run: 
 production: 
-  completed_tasks:
-  yet_to_run:
-beta:
-  completed_tasks:
-  yet_to_run:
-qa:
-  completed_tasks:
-  yet_to_run:
+  completed_tasks: 
+  yet_to_run: 
+development: 
+  completed_tasks: 
+  yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-nightly:
-  completed_tasks:
-  yet_to_run:
-  - rake setup_payment_currency:update --trace
-  - rake setup_payment_currency:create --trace
-testing:
+testing: 
   completed_tasks: 
   - rake db:migrate --trace
   - rake db:version --trace
-  yet_to_run:
   - rake setup_payment_currency:update --trace
+  yet_to_run: 
   - rake setup_payment_currency:create --trace
-development: 
-  completed_tasks:
-  yet_to_run:
-  - rake setup_payment_currency:update --trace
-  - rake setup_payment_currency:create --trace
-preview:
-  completed_tasks:
-  yet_to_run:
+nightly: 
+  completed_tasks: 
+  yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
 cucumber: 
-  completed_tasks:
-  yet_to_run:
+  completed_tasks: 
+  yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-test:
-  completed_tasks:
-  yet_to_run:
+preview: 
+  completed_tasks: 
+  yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-staging:
-  completed_tasks:
-  yet_to_run:
+staging: 
+  completed_tasks: 
+  yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-app:
-  completed_tasks:
-  yet_to_run:
-  - rake setup_payment_currency:update --trace
-  - rake setup_payment_currency:create --trace
-qa2:
-  completed_tasks:
-  yet_to_run:
+test: 
+  completed_tasks: 
+  yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
