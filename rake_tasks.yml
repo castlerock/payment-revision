@@ -16,10 +16,14 @@ qa:
   - rake setup_payment_currency:create --trace
 beta: 
   completed_tasks: 
-  yet_to_run: 
+  yet_to_run:
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
 production: 
   completed_tasks: 
-  yet_to_run: 
+  yet_to_run:
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
 development: 
   completed_tasks: 
   yet_to_run: 
