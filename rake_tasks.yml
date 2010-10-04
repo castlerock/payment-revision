@@ -11,9 +11,10 @@ qa:
 nightly:
   completed_tasks:
   yet_to_run:
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
 testing:
   completed_tasks: 
-  - rake invalid --trace
   - rake db:migrate --trace
   - rake db:version --trace
   yet_to_run: 
