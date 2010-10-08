@@ -9,23 +9,23 @@ qa2:
   - rake setup_payment_currency:update --trace
   yet_to_run: 
   - rake setup_payment_currency:create --trace
-production: 
+qa: 
   completed_tasks: 
-  yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
+  - rake setup_payment_currency:create --trace
+  yet_to_run: 
 beta: 
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-qa: 
+production: 
   completed_tasks: 
+  yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-  yet_to_run: 
-  - rake setup_payment_currency:create --trace
-nightly: 
+development: 
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
@@ -38,12 +38,7 @@ testing:
   - rake setup_payment_currency:create --trace
   yet_to_run: 
   - rake setup_payment_currency:create --trace
-development: 
-  completed_tasks: 
-  yet_to_run: 
-  - rake setup_payment_currency:update --trace
-  - rake setup_payment_currency:create --trace
-preview: 
+nightly: 
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
@@ -53,7 +48,7 @@ cucumber:
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-test: 
+preview: 
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
@@ -64,4 +59,8 @@ staging:
   - rake setup_payment_currency:create --trace
   yet_to_run: 
   - rake setup_payment_currency:create --trace
-
+test: 
+  completed_tasks: 
+  yet_to_run: 
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
