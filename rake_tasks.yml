@@ -4,75 +4,63 @@ app:
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
-  - rake rake_migration:skip_initial_load --trace
-qa2: 
+qa2:
   completed_tasks: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
-  - rake rake_migration:skip_initial_load --trace
-production: 
+production:
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-  - rake rake_migration:skip_initial_load --trace
-beta: 
+beta:
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-  - rake rake_migration:skip_initial_load --trace
-qa: 
+qa:
   completed_tasks: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
-  - rake rake_migration:skip_initial_load --trace
-nightly: 
+nightly:
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-  - rake rake_migration:skip_initial_load --trace
-testing: 
+testing:
   completed_tasks: 
   - rake db:migrate --trace
   - rake db:version --trace
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   - rake setup_payment_currency:create --trace
-  - rake rake_migration:skip_initial_load --trace
-  yet_to_run: 
+  yet_to_run:
 development: 
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-  - rake rake_migration:skip_initial_load --trace
-preview: 
+preview:
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-  - rake rake_migration:skip_initial_load --trace
-cucumber: 
+cucumber:
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-  - rake rake_migration:skip_initial_load --trace
-test: 
+test:
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-  - rake rake_migration:skip_initial_load --trace
-staging: 
+staging:
   completed_tasks: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
-  - rake rake_migration:skip_initial_load --trace
