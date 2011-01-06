@@ -64,3 +64,6 @@ staging:
   - rake setup_payment_currency:create --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
+mnp:
+  completed_tasks: 
+  yet_to_run:
