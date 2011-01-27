@@ -4,7 +4,9 @@ app:
 qa2: 
   app_revision: 2.1.0_B_7
 mnp: 
-  app_revision: MNP_master
+  app_revision: MNP_master 
+acsi: 
+  app_revision: ACSI_master
 production: 
   app_revision: 1.1.0_RC_0
 beta: 

@@ -66,4 +66,7 @@ staging:
   yet_to_run: 
 mnp:
   completed_tasks: 
-  yet_to_run:
+  yet_to_run:  
+acsi:
+  completed_tasks: 
+  yet_to_run:   
