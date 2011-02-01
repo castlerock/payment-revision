@@ -4,69 +4,69 @@ app:
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
-qa2:
+qa2: 
   completed_tasks: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
-production:
+mnp: 
   completed_tasks: 
   yet_to_run: 
-  - rake setup_payment_currency:update --trace
-  - rake setup_payment_currency:create --trace
-beta:
-  completed_tasks: 
-  yet_to_run: 
-  - rake setup_payment_currency:update --trace
-  - rake setup_payment_currency:create --trace
-qa:
+qa: 
   completed_tasks: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
-nightly:
+beta: 
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-testing:
+production: 
+  completed_tasks: 
+  yet_to_run: 
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
+acsi: 
+  completed_tasks: 
+  yet_to_run: 
+development: 
+  completed_tasks: 
+  yet_to_run: 
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
+testing: 
   completed_tasks: 
   - rake db:migrate --trace
   - rake db:version --trace
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   - rake setup_payment_currency:create --trace
-  yet_to_run:
-development: 
+  yet_to_run: 
+nightly: 
+  completed_tasks: 
+  - rake setup_payment_currency:update --trace
+  yet_to_run: 
+  - rake setup_payment_currency:create --trace
+cucumber: 
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-preview:
+preview: 
   completed_tasks: 
   yet_to_run: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
-cucumber:
-  completed_tasks: 
-  yet_to_run: 
-  - rake setup_payment_currency:update --trace
-  - rake setup_payment_currency:create --trace
-test:
-  completed_tasks: 
-  yet_to_run: 
-  - rake setup_payment_currency:update --trace
-  - rake setup_payment_currency:create --trace
-staging:
+staging: 
   completed_tasks: 
   - rake setup_payment_currency:update --trace
   - rake setup_payment_currency:create --trace
   - rake setup_payment_currency:create --trace
   yet_to_run: 
-mnp:
+test: 
   completed_tasks: 
-  yet_to_run:  
-acsi:
-  completed_tasks: 
-  yet_to_run:   
+  yet_to_run: 
+  - rake setup_payment_currency:update --trace
+  - rake setup_payment_currency:create --trace
