@@ -68,3 +68,7 @@ staging:
 honorstudentapp: 
   completed_tasks: 
   yet_to_run: 
+cisco:
+  completed_tasks:
+  yet_to_run:
+
