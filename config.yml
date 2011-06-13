@@ -2,7 +2,7 @@
 app: 
   app_revision: 2.2.0_RC_22
 qa2: 
-  app_revision: 2.2.0_B_21
+  app_revision: 2.2.0_B_22
 mnp: 
   app_revision: MNP_master
 production: 
