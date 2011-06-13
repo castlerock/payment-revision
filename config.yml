@@ -1,33 +1,33 @@
 --- 
 app: 
-  app_revision: 2.2.0_RC_21
+  app_revision: 2.2.0_RC_22
 qa2: 
   app_revision: 2.2.0_B_21
 mnp: 
   app_revision: MNP_master
-production: 
-  app_revision: 1.1.0_RC_0
-beta: 
-  app_revision: 2.2.0_RC_21
-qa: 
-  app_revision: 2.2.0_B_21
 cisco: 
   app_revision: cisco
+qa: 
+  app_revision: 2.2.0_B_21
+beta: 
+  app_revision: 2.2.0_RC_21
+production: 
+  app_revision: 1.1.0_RC_0
 acsi: 
   app_revision: ACSI_master
-honorstudentapp: 
-  app_revision: 2.2.0_H_11
-nightly: 
-  app_revision: TEST_NIGHTLY_TAG
-testing: 
-  app_revision: master
 development: 
   app_revision: 1.1.1_D_25
-preview: 
-  app_revision: 1.1.2-production
+testing: 
+  app_revision: master
+nightly: 
+  app_revision: TEST_NIGHTLY_TAG
+honorstudentapp: 
+  app_revision: 2.2.0_H_11
 cucumber: 
   app_revision: 1.1.0_D_0
-test: 
-  app_revision: 1.1.0_D_0
+preview: 
+  app_revision: 1.1.2-production
 staging: 
   app_revision: 2.2.0_S_22
+test: 
+  app_revision: 1.1.0_D_0
