@@ -1,16 +1,16 @@
 --- 
 app: 
-  app_revision: 2.2.0_RC_25
+  app_revision: 2.2.0_RC_26
 qa2: 
-  app_revision: 2.2.0_B_25
+  app_revision: 2.2.0_B_26
 mnp: 
   app_revision: MNP_master
 production: 
   app_revision: 1.1.0_RC_0
 beta: 
-  app_revision: 2.2.0_RC_25
+  app_revision: 2.2.0_RC_26
 qa: 
-  app_revision: 2.2.0_B_25
+  app_revision: 2.2.0_B_26
 cisco: 
   app_revision: cisco
 acsi: 
@@ -30,4 +30,4 @@ cucumber:
 test: 
   app_revision: 1.1.0_D_0
 staging: 
-  app_revision: 2.2.0_S_25
+  app_revision: 2.2.0_S_26
